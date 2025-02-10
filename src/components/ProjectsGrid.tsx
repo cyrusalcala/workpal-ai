@@ -57,56 +57,65 @@ const ProjectsGrid = ({ projects = defaultProjects }: ProjectsGridProps) => {
 
 const defaultProjects: Project[] = [
   {
-    title: "[Planned] AI Documentation Assistant",
+    title: "[Planned] AI Chatbots for Customer Service",
     description:
-      "Envisioned smart tool that will help generate and maintain technical documentation using GPT-4, with automatic updates based on code changes.",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0",
-    technologies: ["OpenAI API", "Node.js", "React"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-  },
-  {
-    title: "[Planned] Smart Support Chatbot",
-    description:
-      "Future AI-powered customer service chatbot that will handle technical queries and automatically generate support tickets.",
+      "24/7 automated support system using GPT and RAG (Retrieval Augmented Generation) to provide instant, accurate responses to customer queries.",
     image: "https://images.unsplash.com/photo-1596524430615-b46475ddff6e",
-    technologies: ["GPT-4", "Next.js", "TailwindCSS"],
+    technologies: ["OpenAI GPT", "RAG", "Next.js"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },
   {
-    title: "[Concept] API Documentation Generator",
+    title: "[Planned] Automated Knowledge Base Generator",
     description:
-      "Proposed automated tool that will create comprehensive API documentation from code comments and usage patterns.",
-    image: "https://images.unsplash.com/photo-1623479322729-28b25c16b011",
-    technologies: ["Python", "OpenAPI", "Markdown"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-  },
-  {
-    title: "[In Planning] Knowledge Base Analyzer",
-    description:
-      "Upcoming AI system that will analyze support tickets and documentation to identify gaps and suggest improvements.",
+      "AI system that automatically extracts frequently asked questions from support tickets to build and maintain a comprehensive knowledge base.",
     image: "https://images.unsplash.com/photo-1518976024611-28bf4b48222e",
     technologies: ["NLP", "Python", "ElasticSearch"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },
   {
-    title: "[Future] Style Guide Enforcer",
+    title: "[Concept] AI-Powered SOP & Documentation Assistant",
     description:
-      "Planned AI tool that will ensure consistency in technical writing by checking against style guides and company standards.",
-    image: "https://images.unsplash.com/photo-1555421689-491a97ff2040",
+      "Smart tool that converts meeting recordings and notes into structured Standard Operating Procedures and documentation.",
+    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0",
+    technologies: ["OpenAI Whisper", "GPT-4", "React"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com",
+  },
+  {
+    title: "[Future] AI Resume & Cover Letter Generator",
+    description:
+      "Advanced AI tool that generates optimized job applications by analyzing job descriptions and user experience to create tailored resumes and cover letters.",
+    image: "https://images.unsplash.com/photo-1635350736475-c8cef4b21906",
+    technologies: ["GPT-4", "Next.js", "TailwindCSS"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com",
+  },
+  {
+    title: "[In Development] AI Productivity Dashboard",
+    description:
+      "Comprehensive dashboard for freelancers that uses AI to track tasks, analyze time usage, and forecast income while providing optimization suggestions.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
     technologies: ["Machine Learning", "React", "Node.js"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },
   {
-    title: "[Upcoming] Support Ticket Classifier",
+    title: "[Planned] Sentiment Analysis & Feedback Analyzer",
     description:
-      "Future ML model that will automatically categorize and route customer support tickets to appropriate teams.",
-    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984",
-    technologies: ["TensorFlow", "FastAPI", "PostgreSQL"],
+      "AI-powered tool that analyzes customer reviews and support tickets to identify trends, sentiment patterns, and areas for improvement.",
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692",
+    technologies: ["TensorFlow", "Python", "FastAPI"],
+    githubUrl: "https://github.com",
+    liveUrl: "https://example.com",
+  },
+  {
+    title: "[Upcoming] AI Technical Writing Assistant",
+    description:
+      "Advanced AI assistant that helps improve the structure, clarity, and consistency of technical documentation while maintaining technical accuracy.",
+    image: "https://images.unsplash.com/photo-1555421689-491a97ff2040",
+    technologies: ["GPT-4", "React", "Node.js"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },
